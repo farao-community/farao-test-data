@@ -31,7 +31,7 @@ The [*network-modification-scripts*](./network-modification-scripts) directory c
 
 ### Closed RAO examples
 
-The [*closed-ra-optimisation-test*](./closed-ra-optimisation-test) directory contains data that can be used as example to illustrate the closed RAO module.
+The [*closed-ra-optimisation-test*](./closed-ra-optimisation-test) directory contains data that can be used as example to illustrate the closed RAO module behaviour.
 - **testNetwork.xiidm**: Input three nodes network.
 - **testCracPstOnly.json**: Test CRAC file with only one PST remedial action available.
 - **testCracRdOnly.json**: Test CRAC file with only two redispatch remedial actions available.
@@ -40,6 +40,7 @@ The [*closed-ra-optimisation-test*](./closed-ra-optimisation-test) directory con
 
 ### Flow decomposition examples
 
+The [*flow-decomposition-test*](./flow-decomposition-test) directory contains data that can be used as example to illustrate the flow decomposition module behaviour.
 - **20140116_0830_2D4_UX1.uct**: Input twenty nodes network with four countries.
 - **cracData.json**: Associated CRAC file for flow decomposition.
 
