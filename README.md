@@ -38,13 +38,13 @@ The [*closed-ra-optimisation-test*](./closed-ra-optimisation-test) directory con
 - **testCracRdPst.json**: Test CRAC file with both PST and redispatch remedial actions available.
 
 
-### [Flow decomposition examples](./flow-decomposition-test)
+### Flow decomposition examples
 
 - **20140116_0830_2D4_UX1.uct**: Input twenty nodes network with four countries.
 - **cracData.json**: Associated CRAC file for flow decomposition.
 
 
-### [Groovy script examples](./script-examples)
+### Groovy script examples
 
 The [*script-examples*](./script-examples) directory contains groovy script examples that can be run using **itools** binary.
 - **SimpleTestCase.groovy**: **itools** script that generates the test case used as [closed RAO example](./closed-ra-optimisation-test).
