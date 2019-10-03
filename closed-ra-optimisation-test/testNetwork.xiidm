@@ -22,7 +22,7 @@
             </iidm:generator>
             <iidm:load id="LOAD_BE" name="Belgian load" loadType="UNDEFINED" p0="2200.0" q0="0.0" bus="BUS_BE_1" connectableBus="BUS_BE_1"/>
         </iidm:voltageLevel>
-        <iidm:twoWindingsTransformer id="PST_BE" name="Belgian phase shift transformer" r="0.0" x="5.0" g="0.0" b="0.0" ratedU1="400.0" ratedU2="400.0" bus1="BUS_BE_1" connectableBus1="BUS_BE_1" voltageLevelId1="VOLTAGE_LEVEL_BE" bus2="BUS_BE_2" connectableBus2="BUS_BE_2" voltageLevelId2="VOLTAGE_LEVEL_BE">
+        <iidm:twoWindingsTransformer id="PST_BE" name=" phase shift transformer" r="0.0" x="5.0" g="0.0" b="0.0" ratedU1="400.0" ratedU2="400.0" bus1="BUS_BE_1" connectableBus1="BUS_BE_1" voltageLevelId1="VOLTAGE_LEVEL_BE" bus2="BUS_BE_2" connectableBus2="BUS_BE_2" voltageLevelId2="VOLTAGE_LEVEL_BE">
             <iidm:phaseTapChanger lowTapPosition="-6" tapPosition="-4" regulationMode="FIXED_TAP">
                 <iidm:step r="0.0" x="0.0" g="0.0" b="0.0" rho="1.0" alpha="-0.9"/>
                 <iidm:step r="0.0" x="0.0" g="0.0" b="0.0" rho="1.0" alpha="-0.75"/>

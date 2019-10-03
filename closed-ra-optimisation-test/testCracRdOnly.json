@@ -26,7 +26,8 @@
       "minimumPower" : 100.0,
       "maximumPower" : 5000.0,
       "startupCost" : 1000.0,
-      "marginalCost" : 45.0
+      "marginalCost" : 45.0,
+      "targetPower" : 3000.0
     } ],
     "usageRules" : [ {
       "id" : "FRENCH_GENERATOR_FREE_TO_USE",
@@ -44,7 +45,8 @@
       "minimumPower" : 100.0,
       "maximumPower" : 5000.0,
       "startupCost" : 1000.0,
-      "marginalCost" : 50.0
+      "marginalCost" : 50.0,
+      "targetPower" : 1000.0
     } ],
     "usageRules" : [ {
       "id" : "BELGIAN_GENERATOR_FREE_TO_USE",
